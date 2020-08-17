@@ -217,13 +217,22 @@ function setup() {
   /*
   // flower #1
     doTheDrawing(x0 = 250, y0 = 0,
-    arm1fun = (i, rotationSpeed) => spiro(i, 31, 32, rotationSpeed * 400, -rotationSpeed * 403, 0, 2.1),
+    arm1fun = (i, rotationSpeed) => spiro(i, 31, 32, rotationSpeed * 400, -rotationSpeed * 403, 0, .1),
     arm2fun = (i, rotationSpeed) => spiro(i, 180, 51, rotationSpeed * 2/3, rotationSpeed*2, 40/ 2 / PI, 1.1),
     planexform = rotatePlane,
     nrot = 3,
     samplesPerRot = 30000,
     color(80, 150, 200, 100))
     */
+  
+  // flower #2
+    doTheDrawing(x0 = 290, y0 = 0,
+    arm1fun = (i, rotationSpeed) => spiro(i, 31, 32, rotationSpeed * 400, -rotationSpeed * 403, 0, 1.5),
+    arm2fun = (i, rotationSpeed) => spiro(i, 100, 31, rotationSpeed * 2/3, rotationSpeed*2, 40/ 2 / PI, 1.1),
+    planexform = rotatePlane,
+    nrot = 3,
+    samplesPerRot = 30000,
+    color(80, 150, 200, 100))
   /*
   translate(500,0)
   rotate(90)
